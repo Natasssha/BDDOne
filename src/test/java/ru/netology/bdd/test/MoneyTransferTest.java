@@ -117,7 +117,7 @@ public class MoneyTransferTest {
         Assertions.assertEquals(balanceSecondBeforeTransfer, dashboardPage.getCardBalance(1));
     }
 
-   /* @Test
+    @Test
     void shouldNotTransferMoneyFromSecondToFirstOverLimit() {
         var loginPage = new LoginPage();
         var authInfo = DataHelper.getAuthInfo();
@@ -132,6 +132,6 @@ public class MoneyTransferTest {
         Assertions.assertEquals(balanceFirstBeforeTransfer, dashboardPage.getCardBalance(0));
         Assertions.assertEquals(balanceSecondBeforeTransfer, dashboardPage.getCardBalance(1));
 
-    }*/
+    }
 
 }
